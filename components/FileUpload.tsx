@@ -115,6 +115,7 @@ const FileUpload = ({
     return true;
   };
 
+  // @ts-ignore
   return (
     <ImageKitProvider
       publicKey={publicKey}
